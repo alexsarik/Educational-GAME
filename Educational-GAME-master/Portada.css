@@ -1,0 +1,57 @@
+h1 { 
+	color: black; 
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 32px; 
+	font-weight: bold; 
+	line-height: 32px; 
+	margin: 0 0 24px; 
+	text-shadow: 1px 1px 1px #082b34; 
+	}
+
+body{
+	
+	background-color: #6ebc49;
+}
+
+img{
+	margin-left: 350px;
+	margin-top: 30px;
+	border-radius: 30px;
+
+}
+
+
+#start{
+	height: 80px;
+	width: 200px;
+	background-color: black;
+	position: absolute;
+	border-radius: 30px;
+    -webkit-animation-name: start; 
+    -webkit-animation-duration: 4s; 
+	-webkit-animation-iteration-count: infinite;
+    animation-name: start;
+    animation-duration: 4s;
+	
+}
+@keyframes start {
+    0%   {left:400px; top:400px;}
+    25%  {left:1000px; top:400px;}
+    50%  {left:1000px; top:750px;}
+    75%  {left:400px; top:750px;}
+    100%  {left:400px; top:400px;}
+
+}
+
+h2{
+	margin-left: 50px;
+	margin-top: 25px;
+	color: green;
+}
+#icon{
+	margin-left: 320px;
+	margin-top: 100px;
+}
+
+
+

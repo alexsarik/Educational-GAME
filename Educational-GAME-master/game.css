@@ -1,0 +1,218 @@
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	position: absolute;
+	right: 600px;
+	top: 75px;
+	box-shadow: 5px 5px 20px #999;
+	background-color: red;
+}
+#option1:hover{
+	background-color: #6ebc49;
+	border:solid 2px black;
+}
+#option2:hover{
+	background-color: #6ebc49;
+	border:solid 2px black;
+}
+#option3:hover{
+	background-color: #6ebc49;
+	border:solid 2px black;
+}
+#option4:hover{
+	background-color: #6ebc49;
+	border:solid 2px black;
+}
+#option5:hover{
+	background-color: #6ebc49;
+	border:solid 2px black;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.img-rounded{
+	border-radius: 25px;
+	
+}
+#header{
+		background-color: #77B86A;
+        border:solid 4px white;
+        height:100px;
+		border-radius: 50px;
+
+    }
+#center{
+         border:solid 4px white;
+         height:700px;
+		 position: absolut;
+		 margin-left: 990px;
+		 
+         }
+
+#option1{
+        background-color: #77B86A;
+        border:solid 1px white;
+        height:100px;
+		border-radius: 50px;
+		box-shadow: 5px 5px 20px #999;
+         }
+
+#option2{
+		background-color: #77B86A;
+		border:solid 1px white;
+		height:100px;
+		border-radius: 50px;
+		box-shadow: 5px 5px 20px #999;
+        }
+
+
+#option3{
+		background-color: #77B86A;
+		border:solid 1px white;
+		height:100px;
+		border-radius: 50px;
+		box-shadow: 5px 5px 20px #999;
+		margin-top: 10px;
+       }
+ #option4{
+		background-color: #77B86A;
+		border:solid 1px white;
+		height:100px;
+		border-radius: 50px;
+		box-shadow: 5px 5px 20px #999;
+		margin-top: 10px;
+       }
+#lvl1{
+	border-radius: 360px;
+	height:80px;
+	width: 80px;
+	position: absolute; 
+	right: 610px;
+	background-color: #5bdb20;
+	margin-top: 5.5px;
+	-webkit-animation-name: one;
+    -webkit-animation-duration: 4s; 
+    animation-name: one;
+    animation-duration: 8s;
+	border:solid 2px black;
+}
+#lvl2{
+	border-radius: 360px;
+	height:80px;
+	width: 80px;
+	position: absolute; 
+	right: 700px;
+	background-color: #5bdb20;
+	margin-top: 5.5px;
+	-webkit-animation-name: two;
+    -webkit-animation-duration: 4s; 
+    animation-name: two;
+    animation-duration: 7s;
+	border:solid 2px black;
+}
+#lvl3{
+	border-radius: 360px;
+	height:80px;
+	width: 80px;
+	position: absolute; 
+	right: 790px;
+	background-color: #5bdb20;
+	margin-top: 5.5px;
+	-webkit-animation-name: three;
+    -webkit-animation-duration: 4s; 
+    animation-name: three;
+    animation-duration: 6s;
+	border:solid 2px black;
+}
+#lvl4{
+	border-radius: 360px;
+	height:80px;
+	width: 80px;
+	position: absolute; 
+	right: 880px;
+	background-color: #5bdb20;
+	margin-top: 5.5px;
+	-webkit-animation-name: four;
+    -webkit-animation-duration: 4s; 
+    animation-name: four;
+    animation-duration: 5s;
+	border:solid 2px black;
+}
+#lvl5{
+	border-radius: 360px;
+	height:80px;
+	width: 80px;
+	position: absolute; 
+	right: 970px;
+	background-color: #5bdb20;
+	margin-top: 5.5px;
+	-webkit-animation-name: five;
+    -webkit-animation-duration: 4s; 
+    animation-name: five;
+    animation-duration: 4s;
+	border:solid 2px black;
+}
+
+
+@-webkit-keyframes one {
+    0%   {right:0px; top:0px;}
+    25%  {right: 610px; top:0px;}
+	}
+@-webkit-keyframes two {
+    0%   {right:0px; top:0px;}
+    25%  {right:700px; top:0px;}
+	}
+@-webkit-keyframes three {
+    0%   {right:0px; top:0px;}
+    25%  {right: 790px; top:0px;}
+	}
+@-webkit-keyframes four {
+    0%   {right:0px; top:0px;}
+    25%  {right: 880px; top:0px;}
+	}
+@-webkit-keyframes five {
+    0%   {right:0px; top:0px;}
+    25%  {right: 970px; top:0px;}
+	}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
